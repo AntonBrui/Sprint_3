@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: CourierCreateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.627 s <<< FAILURE! - in CourierCreateTest
+courierCanNotBeCreatedWithDuplicateData(CourierCreateTest)  Time elapsed: 0.76 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Этот логин уже используется> but was: <Этот логин уже используется. Попробуйте другой.>
+	at CourierCreateTest.courierCanNotBeCreatedWithDuplicateData(CourierCreateTest.java:64)
+
+courierCanNotBeCreatedWithDuplicateLogin(CourierCreateTest)  Time elapsed: 0.702 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Этот логин уже используется> but was: <Этот логин уже используется. Попробуйте другой.>
+	at CourierCreateTest.courierCanNotBeCreatedWithDuplicateLogin(CourierCreateTest.java:83)
+
