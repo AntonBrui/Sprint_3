@@ -1,0 +1,6 @@
+ru/yandex/praktikum/scooter/api/model/Order.class
+ru/yandex/praktikum/scooter/api/model/CourierCredentials.class
+ru/yandex/praktikum/scooter/api/OrderClient.class
+ru/yandex/praktikum/scooter/api/ScooterRestClient.class
+ru/yandex/praktikum/scooter/api/CourierClient.class
+ru/yandex/praktikum/scooter/api/model/Courier.class

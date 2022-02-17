@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CourierAuthorizationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.576 s <<< FAILURE! - in CourierAuthorizationTest
+courierCanNotBeLoggedWithOutPassword(CourierAuthorizationTest)  Time elapsed: 60.825 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Status code is not 400 ==> expected: <400> but was: <504>
+	at CourierAuthorizationTest.courierCanNotBeLoggedWithOutPassword(CourierAuthorizationTest.java:127)
+
